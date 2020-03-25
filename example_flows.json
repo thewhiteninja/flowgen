@@ -1,0 +1,11 @@
+[
+  {
+    "IPV6_SRC_ADDR": "fe80::5153:e252:7215:3e53",
+    "IPV6_DST_ADDR": "ff02::1:3",
+    "IN_BYTES": 200000000,
+    "IN_PKTS": 200000,
+    "L4_SRC_PORT": 45543,
+    "L4_DST_PORT": 8888,
+    "PROTOCOL": 6
+  }
+]
