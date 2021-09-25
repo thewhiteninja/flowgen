@@ -32,13 +32,14 @@ Pcap can be replay by [TCPReplay][1].
 - Netflow V9 only.
 - 30 supported fields
 
-    |               |               |                |               |                   |                     |
-    | ------------- | ------------- | -------------- | ------------- | ----------------- | ------------------- |
-    | IN_BYTES      | IN_PKTS       | FLOWS          | PROTOCOL      | IP_TOS            | TCP_FLAGS           |
-    | L4_SRC_PORT   | IPV4_SRC_ADDR | INPUT_SNMP     | L4_DST_PORT   | IPV4_DST_ADDR     | IPV4_DST_MASK       |
-    | OUTPUT_SNMP   | IPV4_NEXT_HOP | SRC_AS         | DST_AS        | BGP_IPV4_NEXT_HOP | MUL_DST_PKTS        |
-    | MUL_DST_BYTES | LAST_SWITCHED | FIRST_SWITCHED | OUT_BYTES     | OUT_PKTS          | MIN_PKT_LNGTH       |
-    | MAX_PKT_LNGTH | IPV6_SRC_ADDR | IPV6_DST_ADDR  | IPV6_SRC_MASK | IPV6_DST_MASK     | IP_PROTOCOL_VERSION |
+    |               |               |                |               |                     |
+    | ------------- | ------------- | -------------- | ------------- | ------------------- |
+    | IN_BYTES      | IN_PKTS       | FLOWS          | PROTOCOL      | IP_TOS              |
+    | L4_SRC_PORT   | IPV4_SRC_ADDR | INPUT_SNMP     | L4_DST_PORT   | IPV4_DST_ADDR       |
+    | OUTPUT_SNMP   | IPV4_NEXT_HOP | SRC_AS         | DST_AS        | BGP_IPV4_NEXT_HOP   |
+    | MUL_DST_BYTES | LAST_SWITCHED | FIRST_SWITCHED | OUT_BYTES     | OUT_PKTS            |
+    | MAX_PKT_LNGTH | IPV6_SRC_ADDR | IPV6_DST_ADDR  | IPV6_SRC_MASK | IPV6_DST_MASK       |
+    | TCP_FLAGS     | IPV4_DST_MASK | MUL_DST_PKTS   | MIN_PKT_LNGTH | IP_PROTOCOL_VERSION |
 
 
 ## Output examples
